@@ -1,2 +1,2 @@
 # Launcher
-App development boilerplate for various frameworks
+App development boilerplate for a React/Node/Express/Webpack build.
