@@ -1,0 +1,34 @@
+{
+  "name": "Launcher",
+  "version": "1.0.0",
+  "description": "Boilerplate to help launching an app using React, Angular 1, or Backbone",
+  "repository": {
+    "url": "https://github.com/ArtyEmsee/Launcher.git",
+    "type": "git"
+  },
+  "author": "ArtyEmsee",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "server": "node server/main.js",
+    "server:watch": "nodemon server/main.js"
+  },
+  "engines": {
+    "node": "7.0.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.16.2",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.14.0"
+  }
+}
